@@ -23,7 +23,6 @@ padding: 0%;
 }
 
 .placeholder_2 {
-	height: 56.8rem;
 	background-color: white;
 	animation: fadeIn 2.5s;
 }
@@ -61,7 +60,7 @@ padding: 0%;
 	margin-left: auto;
 	margin-right: auto;
 	width:12rem;
-	padding: rem;
+	padding-bottom: 3rem;
 }
 
 .contact_t {
