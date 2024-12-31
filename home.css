@@ -1,16 +1,16 @@
 .topnav {
-	margin-top: 20px;
+	margin-top: 1rem;
 	color: black;
 }
 
 li {
 	display: inline;
-	padding: 0px;
+	padding: 0%;
 }
 
 ul {
-	padding: 0px;
-	margin: 0px;
+	padding: 0%;
+	margin: 0%;
 	text-align: center;
 }
 
@@ -19,26 +19,26 @@ a {
 color: black;
 text-decoration: none;
 font-family: times new roman;
-font-size: 16pt;
+/*font-size: 1rem;*/
 animation: fadeIn 3s;
 }
 
-.navlogo {
+/*.navlogo {
 	width: 16%;
 	margin-top: 0px;
 	opacity: 0%;
-}
+}*/
 
 .aboutpage {
 	display: flex;
-	background-color: #5a839d;
+	background-color: #70aa00;
 }
 
 .about_a {
 	text-align: right;
 	animation: fadeIn 5s;
-	margin-top: 50px;
-	color: white;
+	margin-top: 0%;
+	color: black;
 }
 
 .about_a:hover {
@@ -47,20 +47,24 @@ text-decoration: underline;
 
 body {
 background-color: white;
-margin: 0px;
-padding: 0px;
+margin: 0%;
+padding: 0%;
+}
+
+
+.placeholder_2 {
+	height: 21.8rem;
+	background-color: #70aa00;
+	animation: fadeIn 2.5s;
+	margin-bottom: 21.8rem;
+
 }
 
 .placeholder {
-	height: 350px;
+	height: 21.8rem;
 	background-color: #5a839d;
 	animation: fadeIn 2.5s;
-}
-
-.placeholder_2 {
-	height: 200px;
-	background-color: white;
-
+	margin-bottom: 21.8rem;
 }
 
 @keyframes fadeIn {
@@ -72,14 +76,14 @@ padding: 0px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 70px;
+margin-top: 4.5rem;
 animation: fadeIn 5s;
 }
 
 .releaseimg img {
-	width: 22.5%;
-	border-radius: 12pt;
-border-width: 1px;
+	width: 21.4rem;
+	border-radius: 0.8rem;
+border-width: 0.17;
 }
 
 .releaseimg img:hover {
@@ -88,9 +92,9 @@ border-width: 1px;
 
 .release_p {
 text-align: center;
-font-size: 16pt;
+font-size: 1.3rem;
 animation: fadeIn 6s;
-margin-top: 25px;
+margin-top: 0rem;
 }
 
 .release_a:hover {
@@ -103,15 +107,15 @@ color: #5a839d;
 .streamnav {
 margin-left: auto;
 margin-right: auto;
-padding-top: 40px;
+padding-top: 2.5rem;
 }
 
 
 .streamnav img {
-margin-left: 75px;
-margin-right: 75px;
-  width: 3%;
-  padding: 0px;
+margin-left: 4.6rem;
+margin-right: 4.6rem;
+  width: 3rem;
+  padding: 0rem;
   animation: fadeIn 8s;
 
 }
@@ -122,10 +126,10 @@ margin-right: 75px;
 
 .divider {
 color: black;
-font-size: 12pt;
+font-size: 0.8rem;
 text-align: center;
 animation: fadeIn 10s;
-margin-top: 50px;
+margin-top: 0rem;
 }
 
 .divider:hover {
@@ -134,10 +138,10 @@ color:#5a839d ;
 
 .footerdesc {
 	color: black;
-	font-size: 10pt;
+	font-size: 0.6rem;
 	text-align: center;
 	animation: fadeIn 8s;
-	margin-top: 5px;
+	margin-top: 0rem;
 /*	text-decoration: underline;*/
 }
 
