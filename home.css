@@ -51,6 +51,15 @@ margin: 0%;
 padding: 0%;
 }
 
+
+.placeholder_6 {
+	height: 21.8rem;
+	background-color: black;
+	animation: fadeIn 2.5s;
+	margin-bottom: 21.8rem;
+
+}
+
 .placeholder_5 {
 	height: 21.8rem;
 	background-color: black;
