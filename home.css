@@ -31,14 +31,14 @@ animation: fadeIn 3s;
 
 .aboutpage {
 	display: flex;
-	background-color: #ddcda6;
+	background-color: black;
 }
 
 .about_a {
 	text-align: right;
 	animation: fadeIn 5s;
 	margin-top: 0%;
-	color: black;
+	color: white;
 }
 
 .about_a:hover {
@@ -50,6 +50,15 @@ background-color: white;
 margin: 0%;
 padding: 0%;
 }
+
+.placeholder_9 {
+	height: 21.8rem;
+	background-color: black;
+	animation: fadeIn 2.5s;
+	margin-bottom: 21.8rem;
+
+}
+
 .placeholder_8 {
 	height: 21.8rem;
 	background-color: #ddcda6;
