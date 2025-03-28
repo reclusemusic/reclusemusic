@@ -31,7 +31,7 @@ animation: fadeIn 3s;
 
 .aboutpage {
 	display: flex;
-	background-color: black;
+	background-color: #4b6e8a;
 }
 
 .about_a {
@@ -49,6 +49,14 @@ body {
 background-color: white;
 margin: 0%;
 padding: 0%;
+}
+
+.placeholder_10 {
+	height: 21.8rem;
+	background-color: #4b6e8a;
+	animation: fadeIn 2.5s;
+	margin-bottom: 21.8rem;
+
 }
 
 .placeholder_9 {
